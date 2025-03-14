@@ -38,7 +38,7 @@ jobs:
         run: dotnet --list-sdks
 
       - name: Restore project dependencies
-        working-directory: ./csharp/SdetBootcampDay1
+        working-directory: ./SdetBootcampDay1
         run: dotnet restore -p:TargetFramework=${{ matrix.framework }}
 
       - name: Build the project
