@@ -6,6 +6,12 @@ namespace SdetBootcampDay1.Exercises
     [TestFixture]
     public class Exercises02
     {
+        [Test]
+        public void FakeTest_DoesNothing()
+        {
+            //do nothing
+        }
+
         /**
          * TODO: rewrite these three tests into a single, parameterized test.
          * You decide if you want to use [TestCase] or [TestCaseSource], but
